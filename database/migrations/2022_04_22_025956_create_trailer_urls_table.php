@@ -15,6 +15,11 @@ class CreateTrailerUrlsTable extends Migration
     {
         Schema::create('trailer_urls', function (Blueprint $table) {
             $table->id();
+            $table->string('web_name');
+            $table->string('web_url');
+            $table->integer('trailerable_id');
+            $table->string('trailerable_type');
+
             $table->timestamps();
         });
     }

@@ -87,7 +87,7 @@
                             <div id="search-autocomplete" class="form-outline">
                                 <input type="search" placeholder="Search" id="form1" class="form-control" />
                             </div>
-                            <button type="button"  class="btn btn-dark">
+                            <button type="button" class="btn btn-dark">
                                 <i class="fas fa-search"></i>
                             </button>
                             </div>

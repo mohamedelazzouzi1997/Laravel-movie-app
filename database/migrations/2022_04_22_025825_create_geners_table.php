@@ -15,6 +15,9 @@ class CreateGenersTable extends Migration
     {
         Schema::create('geners', function (Blueprint $table) {
             $table->id();
+            $table->bigInteger('tmdb_id')->unique();
+            $table->string('title')->unique();
+            $table->string ('slug');
             $table->timestamps();
         });
     }
